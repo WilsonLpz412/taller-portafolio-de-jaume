@@ -9,6 +9,8 @@
 @import "./footer.css";
 @import "./form.css";
 @import "./title.css";
+@import "./curriculum.css";
+@import "./testimony.css";
 
 
 :root {
@@ -17,7 +19,10 @@
   --headLine2: bold 59px/95px var(--fontBase);
   --headLine3: bold 48px/77px var(--fontBase);
   --headLine4: bold 34px/55px var(--fontBase);
+  --headLine4n: 34px/55px var(--fontBase);
   --headLine5: bold 24px/38px var(--fontBase);
+  --headLine5n: 24px/38px var(--fontBase);
+  --body0: bold 16px/25px var(--fontBase);
   --body1: 16px/25px var(--fontBase);
   --body2: 14px/22px var(--fontBase);
   --button: bold 14px/22px var(--fontBase);

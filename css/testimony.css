@@ -1,0 +1,40 @@
+.testimony {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+  margin-block-start: 40px;
+  margin-block-end: 40px;
+  border-inline-start: 1px solid var(--white);
+  border-block-start: 1px solid var(--white);
+}
+
+.testimony-description {
+  font: var(--body0);
+}
+
+.testimony-footer {
+  font: var(--body2);
+  opacity: .5;
+}
+
+@media screen and (min-width: 768px) {
+  .testimony {
+    padding-block-start: 80px;
+    padding-inline-end: 80px;
+    padding-block-start: 80px;
+    padding-block-end: 80px;
+  }
+
+  .testimony-description {
+    font: var(--headLine4);
+  }
+
+  .testimony-footer {
+    font: var(--headLine5);
+  }
+}
+

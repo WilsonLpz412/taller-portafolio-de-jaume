@@ -1,0 +1,43 @@
+.curriculum {
+  text-align: center;
+  margin-block-start: 40px;
+  margin-block-end: 40px;
+}
+
+.curriculum-career {
+  /* max-inline-size: 900px; */
+  margin: auto;
+  font: var(--headLine5n);
+}
+
+.curriculum-share {
+  font: var(--headLine5);
+}
+
+@media screen and (min-width: 768px) {
+  .curriculum {
+    margin-block-start: 200px;
+    margin-block-end: 200px;
+    margin-inline-start: 150px;
+    margin-inline-end: 150px;
+  }
+
+  .curriculum-career {
+    /* max-inline-size: 900px; */
+    margin: auto;
+    font: var(--headLine4n);
+  }
+
+  .curriculum-share {
+    font: var(--headLine4);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .curriculum {
+    margin-block-start: 200px;
+    margin-block-end: 200px;
+    margin-inline-start: 233px;
+    margin-inline-end: 233px;
+  }
+}
